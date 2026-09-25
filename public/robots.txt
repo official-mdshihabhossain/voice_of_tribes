@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://voiceoftribes.pages.dev/sitemap.xml

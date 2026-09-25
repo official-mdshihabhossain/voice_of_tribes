@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Voice of Tribes — Community Stories of Indigenous Bangladesh</title>
+  <meta name="description" content="Voice of Tribes is a community-driven platform for Indigenous voices, stories, culture, local issues and youth-led reporting in Bangladesh.">
+  <link rel="canonical" href="https://voiceoftribes.pages.dev/">
+  <meta property="og:title" content="Voice of Tribes">
+  <meta property="og:description" content="A community-driven platform for Indigenous voices and stories in Bangladesh.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://voiceoftribes.pages.dev/">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Voice of Tribes","description":"A community-driven platform for Indigenous voices and stories in Bangladesh.","url":"https://voiceoftribes.pages.dev/"}</script>
+</head>
+<body>
+<header class="site-header"><div class="container nav-wrap">
+  <a class="brand" href="#home"><span class="brand-mark">VT</span><span>Voice of Tribes</span></a>
+  <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+  <nav id="nav"><a href="#home" data-i18n="home">Home</a><a href="#stories" data-i18n="stories">Stories</a><a href="#gallery" data-i18n="gallery">Gallery</a><a href="#team" data-i18n="team">Team</a><a href="#contact" data-i18n="contact">Contact</a><a href="#account" data-i18n="account">Account</a></nav>
+  <button class="lang" id="langBtn">বাংলা</button>
+</div></header>
+<main>
+<section id="home" class="hero"><div class="container hero-grid"><div><p class="eyebrow" data-i18n="eyebrow">COMMUNITY • VOICE • MEMORY</p><h1 data-i18n="heroTitle">Every community has a story worth hearing.</h1><p class="lead" data-i18n="heroText">Voice of Tribes creates a safe space where Indigenous communities and other contributors can share stories, local realities, culture and ideas.</p><div class="actions"><a class="btn primary" href="#stories" data-i18n="explore">Explore stories</a><a class="btn secondary" href="#account" data-i18n="contribute">Share your story</a></div></div><div class="hero-card"><div class="pattern"></div><p data-i18n="heroCard">A community-led archive of voices, experiences and local knowledge.</p></div></div></section>
+<section class="intro"><div class="container two-col"><div><p class="eyebrow">WHY</p><h2 data-i18n="whyTitle">Making local voices easier to hear.</h2></div><p data-i18n="whyText">The project connects community volunteers, contributors and an editorial team. Submissions are reviewed before publication so that context, accuracy, consent and respect are considered.</p></div></section>
+<section id="stories" class="section"><div class="container"><div class="section-head"><div><p class="eyebrow">STORIES</p><h2 data-i18n="storiesTitle">Stories from communities</h2></div><a class="text-link" href="#account" data-i18n="submit">Submit a story →</a></div><div id="storyGrid" class="card-grid"><div class="loading">Loading stories…</div></div></div></section>
+<section id="gallery" class="section muted"><div class="container"><div class="section-head"><div><p class="eyebrow">GALLERY</p><h2>Community moments</h2></div></div><div id="galleryGrid" class="gallery-grid"></div></div></section>
+<section id="team" class="section"><div class="container"><div class="section-head"><div><p class="eyebrow">TEAM</p><h2>People behind the platform</h2></div></div><div id="teamGrid" class="team-grid"></div></div></section>
+<section id="account" class="section muted"><div class="container account-grid"><div><p class="eyebrow">ACCOUNT</p><h2>Contribute to Voice of Tribes.</h2><p>Create a profile and submit a story. Your submission will remain private until the editorial process is complete.</p></div><div class="form-card" id="authCard"><div class="tabs"><button class="tab active" data-tab="login">Login</button><button class="tab" data-tab="register">Create account</button></div><form id="loginForm"><input name="email" type="email" placeholder="Email" required><input name="password" type="password" placeholder="Password" required><button class="btn primary full">Login</button></form><form id="registerForm" hidden><input name="name" placeholder="Name" required><input name="email" type="email" placeholder="Email" required><input name="password" type="password" minlength="8" placeholder="Password (8+ characters)" required><input name="location" placeholder="Location"><input name="nationality" placeholder="Nationality"><input name="language" placeholder="Language"><textarea name="bio" placeholder="Short bio"></textarea><label class="check"><input name="public_location" type="checkbox" checked> Show my location publicly</label><button class="btn primary full">Create account</button></form><div id="userArea" hidden></div></div></div></section>
+<section id="contact" class="section"><div class="container contact"><div><p class="eyebrow">CONTACT</p><h2>Stay connected.</h2><p>For editorial questions, partnerships or volunteer coordination, contact the project team.</p></div><div class="contact-card"><strong>Email</strong><a href="mailto:hello@voiceoftribes.org">hello@voiceoftribes.org</a><strong>Website</strong><span>Voice of Tribes</span></div></div></section>
+</main>
+<footer><div class="container footer-wrap"><span>© <span id="year"></span> Voice of Tribes</span><span>Built for community voices.</span></div></footer>
+<script src="js/config.js"></script><script src="js/app.js"></script>
+</body></html>

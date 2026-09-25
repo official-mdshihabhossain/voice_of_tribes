@@ -1,0 +1,1 @@
+window.VT_CONFIG={API_BASE_URL:'https://YOUR-WORKER.workers.dev'};
